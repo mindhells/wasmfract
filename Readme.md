@@ -27,3 +27,11 @@ python3 -m http.server
 ```
 then open http://localhost:8000/index.html
 
+# run the demo
+
+```bash
+./build_demo.sh
+python3 -m http.server
+open http://localhost:8000
+```
+
