@@ -11,27 +11,8 @@ wasmfract project is an experiment to take Gnofract4D capabilities to the web
 
 Emscripten: https://emscripten.org
 
-## Installation
-
-Follow these instructions https://emscripten.org/docs/getting_started/downloads.html
-
-Dont forget to source the env file:
-```bash
-source emsdk_env.sh
-```
-
-# basic sample
-```bash
-emcc source.cpp -o index.html
-python3 -m http.server
-```
-then open http://localhost:8000/index.html
-
 # run the demo
 
 ```bash
 ./build_demo.sh
-python3 -m http.server
-open http://localhost:8000
 ```
-
