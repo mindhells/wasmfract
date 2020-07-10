@@ -1,3 +1,6 @@
 [submodule "emsdk"]
 	path = emsdk
 	url = https://github.com/emscripten-core/emsdk.git
+[submodule "gnofract4d"]
+	path = gnofract4d
+	url = https://github.com/fract4d/gnofract4d.git
